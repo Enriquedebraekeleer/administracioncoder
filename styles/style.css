@@ -1,0 +1,81 @@
+.consorcio-logo {
+    width: 80px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+header {
+    padding: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* font-family: "Open Sans", sans-serif; */
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: beige;
+    
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    color: green;
+    font-size: 24px;
+    padding-top: 16px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+}
+
+.p-footer {
+    color: brown;
+}
+
+.nav-li {
+    list-style-type: none;
+}
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+h2 {
+    margin-top: 16px;
+    margin-right: 14px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+.container {
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+
+
+}
+div {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border: 3px solid black;
+}
+.grid
